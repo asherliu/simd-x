@@ -1,0 +1,27 @@
++----------------------
+|Graph Preprocessor
++----------------------
+Purpose: 
+	This graph formatter serves for statistics of graph data
+At meantime, it transfers Rmat graph into Json format for 
+easy manipulating of reading data to a adj-list based storage
+
++----------
+|Input
++----------
+1. edge lists (one edge each row)
+2. first ver is edge src, last ver is edge dest
+
+
++----------
+|Output
++----------
+1. Json format based graph
+	[src, weight,[[dest0, weight0], [dest1, weight1],...,[destn, weightn]]
+2. Even the src vertex does not existing in edge-list file,
+   this formatter will generate a [src, 0] for that vertex.
+3. ============================
+//WARNING
+----------------------------
+weight is removed
+
