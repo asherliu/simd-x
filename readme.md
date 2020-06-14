@@ -36,10 +36,7 @@ For each application, once you type the compiled executable, the binary file wil
 > - `blk_size` means the number of thread blocks we want the kernel to have.  
 > - `swith_iter` means which iteration to switch the BFS direction from top-down to bottom-up. 
 
------
-Code specification
----------
-Coming soon
+
 
 **Should you have any questions about this project, please contact us by asher.hangliu@gmail.com.**
 
